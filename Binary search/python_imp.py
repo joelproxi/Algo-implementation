@@ -30,9 +30,6 @@ def binary_search(table: list[int], nber: int) -> str:
             if nber == table[mid]:
                 return f" {nber} found in possition {mid}"
             
-        else :
-           return nber 
             
-
 
 print(binary_search(table, 5))
